@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color:white;
+}
+.rmBtn{
+    background:red;
+}
+.addBtn{
+    
+    background:green;
+}
+button{
+    height: 25px;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    width: 100%;
+    display: none;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+}
+li{
+    list-style:none; 
+    float:left;
+    margin:1em;
+    text-align: center;
+}
+li:hover button{
+   display: block;
+}
+.recomlist,.mylist{
+    height: 400px;
+    margin-left: 3.5em;
+}
+.logo{
+    width: 300px;
+    height: auto;
+}
